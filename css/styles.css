@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 10rem;
+}
+
+.container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+.bomp{
+width: 25%;
+height: auto;
+padding: 15px;
+margin: 0rem;
+
+}
+
+.secondbomp{
+    width: 25%;
+    height: auto;
+    padding: 15px;
+    margin-right: 15px;
+    margin-left: 13rem;
+
+}
+.imgsize{
+    width: 100%;
+    height: auto;
+
+}
+
+.postext{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 50%;
+    }
+
+    .bomp{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        margin: 0rem;
+    }
+
+    .secondbomp{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        margin-left: 0rem;
+        
+        
+    }
+  }
+
+/* 小於 400px 的螢幕 */
+@media screen and (max-width: 400px) {
+     .container {
+          width: 100%;
+    }
+
+    .bomp{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        margin: 0rem;
+    }
+
+    .secondbomp{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+        margin-left: 0rem;
+        
+    }
+}
