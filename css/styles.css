@@ -6,7 +6,7 @@ body {
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/aaa.jpg');
+    background-image: url('assets/img/aaa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
