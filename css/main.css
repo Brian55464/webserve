@@ -1,0 +1,48 @@
+.section {
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: burlywood;
+    padding: 50px;
+}
+
+.container {
+overflow: hidden; /* 清除浮动 */
+}
+
+.left-section {
+float: left;
+width: 50%;
+margin-top: 10rem;
+padding: 50px;
+}
+
+.right-section {
+float: right;
+width: 50%;
+}
+
+.imgsize{
+    width: 80%;
+    height: 80%;
+}
+
+.textbk{
+    border-radius: 45px;
+    background-color: #D9D9D9;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.icon {
+    font-size: 45px; /* 调整图标大小的值，这里设置为24像素 */
+    color: black;
+    padding: 15px;
+}
+
+.icon:hover{
+    color: red;
+}
