@@ -27,7 +27,7 @@ h4{
 .divset{
   width: 100%;
   height: 80vh;
-  background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/bbb.jpg');
+  background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/bbb.jpg?raw=true');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ h4{
 .divset2{
   width: 100%;
   height: auto;
-  background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/aaa.jpg');
+  background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/aaa.jpg?raw=true');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -271,6 +271,6 @@ footer{
   left: 0;
   width: 100px;
   height: 100px;
-  background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/ccc.png');
+  background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/ccc.png?raw=true');
   background-size: cover;
 }
