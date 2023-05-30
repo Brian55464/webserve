@@ -13,8 +13,7 @@ overflow: hidden; /* 清除浮动 */
 .left-section {
 float: left;
 width: 50%;
-margin-top: 10rem;
-padding: 50px;
+margin-top: 15rem;
 }
 
 .right-section {
