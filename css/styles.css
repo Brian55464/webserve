@@ -1,0 +1,219 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #a9e3fb;
+}
+
+#section{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.firstdiv{
+  width: auto;
+  height: 80vh;
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+
+.firsttext{
+  font-size: 40px;
+}
+
+
+.seconddiv {
+  width: 100%;
+  height: 80vh;
+  background-image: url('C:/Users/anan/Desktop/華文永續/首頁背景/首圖.png');
+  background-color: rgba(255, 255, 255, 0.2); /* 設置透明的背景顏色 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 10rem;
+}
+
+.secondtext{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 15rem;
+}
+
+
+.thirddiv {
+  width: 100%;
+  height: 80vh;
+  background-image: url('C:/Users/anan/Desktop/華文永續/首頁背景/second.png');
+  background-color: rgba(255, 255, 255, 0.25); /* 設置透明的背景顏色 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10rem;
+}
+
+.thirdtext{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 20rem;
+  padding-left: 10rem;
+}
+
+
+.fourdiv {
+  width: 100%;
+  height: 80vh;
+  background-image: url('C:/Users/anan/Desktop/華文永續/首頁背景/third.png');
+  background-color: rgba(255, 255, 255, 0.25); /* 設置透明的背景顏色 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10rem;
+}
+
+.fourtext{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 20rem;
+  padding-left: 10rem;
+}
+
+.fivediv {
+  width: 100%;
+  height: 80vh;
+  background-image: url('C:/Users/anan/Desktop/華文永續/首頁背景/four.png');
+  background-color: rgba(255, 255, 255, 0.25); /* 設置透明的背景顏色 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10rem;
+}
+
+.fivetext{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 5rem;
+  padding-right: 10rem;
+}
+
+#endsection{
+  width: 100%;
+  height: 120vh;
+  margin-bottom: -20vh; /* 向上移動元素並消除底部空格 */
+}
+.enddiv {
+  width: 100%;
+  height: 120vh;
+  background-image: url('C:/Users/anan/Desktop/華文永續/首頁背景/end.png');
+  background-color: rgba(255, 255, 255, 0.25); /* 設置透明的背景顏色 */
+  background-size: cover; /* 圖片填滿元素 */
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+  
+}
+
+
+/*
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('C:/Users/anan/Desktop/華文永續/首頁背景/首圖.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.5); /* 背景透明度设置在这里，这里的透明度值为0.5 
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: rgb(0, 0, 0); /* 文本颜色不透明 
+    font-size: 32px;
+    text-align: right;
+    padding-top: 15rem;
+    padding-right: 10rem;
+}
+*/
+
+footer{
+    padding: 20px;
+    text-align: center;
+    height: 10vh;
+    left: 0;
+    bottom: 0;
+}
+
+.icon {
+    font-size: 45px; /* 调整图标大小的值，这里设置为24像素 */
+    color: black;
+}
+
+.icon:hover{
+    color: red;
+}
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #ffffff;
+    opacity: 1; /* 初始透明度为 1 */
+    transition: opacity 0.5s ease-in-out; /* 过渡效果，控制透明度的变化 */
+  
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  .loader-img {
+    width: 50px; /* 初始宽度为 50px */
+    height: 50px; /* 初始高度为 50px */
+    opacity: 0; /* 初始透明度为 0 */
+    transition: opacity 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out; /* 过渡效果，控制透明度、宽度和高度的变化 */
+  }
+  
+  /* 淡入动画 */
+  .loader-wrapper.fade-in {
+    opacity: 1;
+  }
+  
+  .loader-wrapper.fade-out {
+    opacity: 0;
+  }
+  
+  /* 由小变大动画 */
+  .loader-img.scale-up {
+    opacity: 1;
+    width: 100px;
+    height: 100px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
