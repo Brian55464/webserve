@@ -197,7 +197,7 @@ header {
   background-size: 100% 100%; /* 圖片填滿元素 */
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/introducechat.png');
+  background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/introducechat.png?raw=true');
 }
 
 .lefttext{
@@ -237,7 +237,7 @@ header {
   background-size: 100% 100%; /* 圖片填滿元素 */
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/yellowbk.png');
+  background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/yellowbk.png?raw=true');
 
 }
 #insidepinapple{
@@ -309,7 +309,7 @@ text-align: center;
   background-size: 100% 100%; /* 圖片填滿元素 */
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/boatbk.png');
+  background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/boatbk.png?raw=true');
 }
 
 .left-section {
