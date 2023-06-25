@@ -1,0 +1,418 @@
+<script src="use.js"></script>
+<script src="chart.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="鳳梨第五頁" />
+        <meta name="author" content="黃博章" />
+        <title>永續環保</title>
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/black.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+        
+    </head>
+    <header>
+      <div class="menu-btn">
+        <div >
+          <img class="headerimg" src="assets/img/pinapple.png"/>
+        </div>
+        
+      </div>
+
+      <nav class="menu">
+        <div class="menuclose">Close</div>
+        <ul class="menu-items">
+            <li><a href="index.html"><div class="menulist3">
+                <p class="footertext1">鳳梨的一生</p>
+                <img class="menuimg" src="assets/img/introduce.png"/>
+              </div></a></li>
+
+            <li><a href="second.html"><div class="menulist">
+                <p class="footertext1">金鳳董的初出茅廬與旅程瓶頸</p>
+                <img class="menuimg" src="assets/img/nosell.png"/>
+            </div></a></li>
+          
+            <li><a href="third.html"><div class="menulist">
+                <p class="footertext1">台灣鳳梨的黑心危機</p>
+                <img class="menuimg" src="assets/img/鳳梨黑心事件.png"/>
+            </div></a></li>
+
+            <li><a href="four.html"><div class="menulist2">
+                <p class="footertext2">冷鏈技術的必要性</p>
+                <img class="menuimg" src="assets/img/sick.png"/>
+              </div></a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <body class="content">
+        <div class="loader-wrapper">
+            <img class="loader-img"  src="assets/img/introduce.png" alt="loading"/>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress"></div>
+            <div class="progress-image"></div>
+        </div>
+        
+        <div id="popup" class="popup">
+            <div class="popup-content2">
+              <span class="close" onclick="togglePopup()"></span>
+              <img class="floatimg" src="assets/img/hfc.png" />
+              <h3 class="floath3">HFC 是什麼？</h3>
+              <p class="floattext">「氫氟碳化物」看似陌生，其實在每個人家中與辦公室的冰箱，冷調設備中都有這個化學品。顧名思義，氫氟碳化物是由氫、氟、碳這3種原子鍵結形成，
+                廣泛用於空調與冷凍裝置里，雖然不像上一代「氟氯碳化物」（CFCs）那樣破壞臭氧層（ozone layer），但是卻讓氣溫升高，導致全球暖化，其「全球暖化潛勢」（GWP）
+                可高達二氧化碳的1萬倍。這比二氧化碳還可怕的溫室氣體，就藏在你家的冰箱與冷氣中。
+
+                據估計，如果不禁止使用，僅氫氟碳化物就將在本世紀末造成0.5度的氣溫上升。</p>  
+                <p class="floattext">※資料擷自本次報導之訪談內容</p>  
+            </div>
+        </div>
+
+        <section id="freshsection">
+            <div class="colddiv"> 
+                <div class="firstleft">
+                    <img class="imgsize" src="assets/img/環保反思.png" />
+                </div>
+                <div class="firstright">
+                    <img class="coldimg" src="assets/img/freshtitle.png" />
+                </div>
+            </div>
+                
+        </section>
+
+        <section id="piediv">
+            <div class="baddiv">
+              <img class="freshcoldtitle" src="assets/img/coldfresh.png"/>
+            </div>
+        
+            <div class="container">
+              <p class="smalltext">
+                雖說冷鏈技術的進步對於農產品的保鮮好處多多，但在整個流程都必須仰賴著「製冷劑」的支撐，
+                而製冷劑的使用則會產生許多<span class="coldspan" onclick="togglePopup()">氫氟碳化物（HFC）</span>。根據研究統計，
+                可發現製冷劑所產生的HFC佔了該物質總排放量的86%；而冷藏冷鏈所產生的HFC竟佔據了整體製冷劑碳排的35％
+              </p>
+            </div>
+        
+            <div class="chartdiv">
+                <div class="firstleft">
+                    <div class="chartContainer1"></div>
+                    <h2 class="charttext">● 制冷劑所產生的 HFC 占比</h2>
+                </div>
+                <div class="firstright">
+                    <div class="chartContainer2"></div>
+                    <h2 class="charttext">● 製冷劑各用途所產生的 HFC 占比</h2>
+                </div>
+            </div>
+          </section>
+
+          <section id="greenpin">
+            <div>
+                <p class="pintext greemans">
+                    那麼......<br>
+                    該如何平衡冷鏈外銷所增加的碳排問題，達成永續目的？
+                </p>
+            </div>
+
+            <div class="ansdiv">
+                <img class="ansimg" src="assets/img/ans.png"/>
+                <p class="anstext">
+                    碳排放為目前全球所矚目的一大議題，政府可透過「鳳梨碳權」的計算，訂定相關碳排政策，彌補鳳梨外銷所造成的環境負擔。
+                </p>
+                <img class="earthimg" src="assets/img/小地球.png"/>
+            </div>
+          </section>
+
+
+          <section id="japan">
+            <div class="wait">
+                <div class="imgleft">
+                    <img class="waitimg" src="assets/img/coldhand.png">
+                    <h1 class="waittext">「推動鳳梨循環再生」</h1>
+                </div>
+                <div class="imgcenter">
+                    <img class="waitimg" src="assets/img/coldhand.png">
+                    <h1 class="waittext">產業鍊企業ESG</h1>
+                </div>
+                <div class="imgright">
+                    <img class="waitimg" src="assets/img/coldhand.png">
+                    <h1 class="waittext">「推動低碳農業」</h1>
+                </div>
+            </div>
+          </section>
+
+        <section >
+            <div class="baddiv">
+                <img class="fiveendtitle" src="assets/img/fiveendtitle.png"/>
+            </div>
+
+            <div class="container">
+                <p class="smalltext">
+                    鳳梨外銷產業的成功，不僅僅是一個商業行為的進步，若透過多方人士一同努力，亦可以在多個SDGs目標為我們生活的這塊大地盡一份心力，達到經濟與環境雙贏的局面！
+                </p>
+              </div>
+
+            <div class="fivelastdiv">
+                <img class="fivelastimg" src="assets/img/global1.png">
+                <img class="fivelastimg" src="assets/img/global2.png">
+                <img class="fivelastimg" src="assets/img/global3.png">
+                <img class="fivelastimg" src="assets/img/global4.png">
+            </div>
+
+            <div class="lastdiv">
+                <div class="ansdiv">
+                    <img class="fiveimg" src="assets/img/斗笠.png"/>
+                    <p class="anstext">
+                        希望看完了金鳳董我的經驗分享後，能夠讓大家更加了解鳳梨外銷產業的相關知識，也希望大家能夠與我一起攜手，
+                        在發展農產外銷經濟之餘，一同實踐永續發展的精神，為環境保護盡一份心力！
+                    </p>
+                    
+                </div>
+            </div>
+
+            <div>
+                <img class="ya" src="assets/img/環保共存.png">
+            </div>
+           
+            
+        </section>
+
+        <footer>
+            <a href="second.html">
+                <div class="footerdiv1">
+                  <p class="footertext1">金鳳董的初出茅廬與旅程瓶頸</p>
+                  <img class="footerimg" src="assets/img/introduce.png"/>
+                </div>
+              </a>
+    
+
+              <a href="third.html">
+                <div class="footerdiv2">
+                  <p class="footertext2">台灣鳳梨的黑心危機</p>
+                  <img class="footerimg" src="assets/img/鳳梨黑心事件.png"/>
+                </div>
+              </a>
+
+              <a href="four.html">
+                <div class="footerdiv2">
+                    <p class="footertext3">冷鏈技術的必要性</p>
+                    <img class="footerimg" src="assets/img/sick.png"/>
+                </div>
+              </a>
+          
+      </footer>
+
+
+
+       <!-- Scripts -->
+       <script src="https://code.highcharts.com/highcharts.js"></script>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+      <!-- 彈出動畫 -->
+       <script>
+         function togglePopup() {
+           var popup = document.getElementById('popup');
+           popup.style.display = (popup.style.display === 'none') ? 'block' : 'none';
+         }
+     </script>
+
+       <!-- 滑鼠動畫 -->
+       <script>
+           AOS.init();
+       </script>
+       <!-- 打字動畫 -->
+       <script>
+         const textElement = document.getElementById('typing-animation');
+         const text = "金鑽鳳梨目前的外銷版圖多為亞洲地區，遲遲無法進攻歐美市場，究竟是什麼原因造成這種情況呢？\n讓金鳳董藉著外銷日本的經驗，帶領大家了解鳳梨們的困境！";
+         let index = 0;
+     
+         function type() {
+           if (index < text.length) {
+             textElement.textContent += text.charAt(index);
+             index++;
+             setTimeout(type, 100); // 調整延遲時間以控制文字出現的速度
+           }
+         }
+     
+         // 監視滾動事件
+         const observer = new IntersectionObserver(entries => {
+           entries.forEach(entry => {
+             if (entry.isIntersecting) {
+               // 開始動畫
+               type();
+               // 停止監視
+               observer.unobserve(entry.target);
+             }
+           });
+         });
+     
+         // 選擇要觀察的目標元素
+         const targetElement = document.getElementById('texttype');
+         observer.observe(targetElement);
+       </script>
+
+       <script>
+         let slideIndex = 1;
+         showSlides(slideIndex);
+         
+         function plusSlides(n) {
+           showSlides(slideIndex += n);
+         }
+         
+         function currentSlide(n) {
+           showSlides(slideIndex = n);
+         }
+         
+         function showSlides(n) {
+           let i;
+           let slides = document.getElementsByClassName("mySlides");
+           let dots = document.getElementsByClassName("dot");
+           if (n > slides.length) {slideIndex = 1}    
+           if (n < 1) {slideIndex = slides.length}
+           for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";  
+           }
+           for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" active", "");
+           }
+           slides[slideIndex-1].style.display = "block";  
+           dots[slideIndex-1].className += " active";
+         }
+         </script>
+
+        <!-- 圓餅圖 -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script>
+          // Data
+          let data1 = [{item:'HFC', data:86},{item:'其他', data:14}]; 
+          let data2 = [{item:'空調', data:65},{item:'冷藏儲存', data:35}]; 
+      
+          // 開始畫圓餅圖 
+          const drawPie = (data, containerClass) => {
+            // RWD 清除原本的圖型
+            d3.select(`.${containerClass} svg`).remove();
+      
+            // svg圖形區大小、邊界
+            const svgWidth = parseInt(d3.select(`.${containerClass}`).style("width")),
+                  svgHeight = svgWidth * 0.8,
+                  margin = 40;
+      
+            // 先設定 svg 大小
+            const svg = d3.select(`.${containerClass}`)
+                            .append("svg")
+                            .attr("width", svgWidth)
+                            .attr("height", svgHeight);
+      
+            // 圖表與線條、標籤
+            svg.append("g")
+              .attr("class", "slices")
+              .attr('transform', `translate(${svgWidth / 2}, ${svgHeight / 2})`);
+            svg.append("g")
+              .attr("class", "labels");
+            svg.append("g")
+              .attr("class", "lines");
+      
+            // 設定顏色
+            const color = d3.scaleOrdinal()
+                .range(["#6ce5e8", "#41b8d5"]);
+      
+            // radius 用來設定半徑，圓餅圖的圓弧大小是區域的一半
+            const radius = Math.min(svgWidth, svgHeight) / 2 - margin;
+      
+            // 設定每個資料在圓餅圖上:
+            const piechart = d3.pie()
+                               .value(d => d.data)
+                               .sort(function(a, b){
+                                 return d3.ascending(a.key, b.key);
+                               });
+      
+            // innerRadius 跟 outerRadius 決定圓餅內圈外圈的大小 radius
+            const arc = d3.arc()
+                          .innerRadius(0)
+                          .outerRadius(radius)
+                          .padAngle(.02);
+      
+            const outerArc = d3.arc()
+                               .outerRadius(radius * 0.9)
+                               .innerRadius(radius * 0.9);
+      
+            const data_ready = piechart(data);
+      
+            // 計算每塊資料的占比%
+            const total = d3.sum(data, d => d.data);
+            data.forEach(d => {
+              d.percentage = Math.round((d.data / total) * 100);
+            });
+      
+            // 建立pie
+            const cutePie = svg.select('.slices')
+                               .selectAll('g')
+                               .data(data_ready)
+                               .enter()
+                               .append('g')
+                               .attr('class', 'arc');
+      
+            cutePie.append('path')
+                   .attr('d', arc)
+                   .attr('fill', (d, i) => color(i))
+                   .attr("stroke", "#fff")
+                   .style("stroke-width", "2px")
+                   .style("opacity", 1);
+      
+            // 加上每個區塊的標示
+            const arcText = d3.arc()
+                              .innerRadius(radius)
+                              .outerRadius(radius - 10);
+      
+            const itemText = cutePie.append('text')
+                                    .attr('transform', d => `translate(${arcText.centroid(d)})`)
+                                    .text(d => d.data.item + " " + d.data.percentage + '%')
+                                    .style('text-anchor', 'middle')
+                                    .style('font-size', 16)
+                                    .style('fill', 'black');       
+      
+            // 滑鼠互動 mouseover、mouseleave
+            d3.selectAll('.arc path')
+              .style('cursor', 'pointer')
+              .on('mouseover', function() {
+                 d3.select(this)
+                   .transition()
+                   .duration(500)
+                   .style("filter", "drop-shadow(2px 4px 6px black)")
+                   .style('transform', 'scale(1.1)');
+              })
+              .on('mouseleave', function() {
+                d3.select(this)
+                  .transition()
+                  .duration(500)
+                  .style("filter", "drop-shadow(0 0 0 black)")
+                  .style('transform', 'scale(1)');
+              });
+          };
+      
+          drawPie(data1, "chartContainer1");
+          drawPie(data2, "chartContainer2");
+      
+          // RWD
+          d3.select(window).on("resize", () => {
+            drawPie(data1, "chartContainer1");
+            drawPie(data2, "chartContainer2");
+          });
+        </script>
+    </body>
+</html>    
