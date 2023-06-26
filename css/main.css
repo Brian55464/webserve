@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true');
   }
   
   h1{
@@ -207,7 +207,7 @@ body {
     background-size: 100% 100%; /* 圖片填滿元素 */
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/introducechat.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/introducechat.png?raw=true');
   }
   
   .lefttext{
@@ -247,7 +247,7 @@ body {
     background-size: 100% 100%; /* 圖片填滿元素 */
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/yellowbk.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/yellowbk.png?raw=true');
   
   }
   #insidepinapple{
@@ -319,7 +319,7 @@ body {
     background-size: 100% 100%; /* 圖片填滿元素 */
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/boatbk.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/boatbk.png?raw=true');
   }
   
   .left-section {
@@ -426,7 +426,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true') ;
   }
 
   .blackimgdiv{
@@ -462,7 +462,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/badbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/badbk.png?raw=true') ;
   }
 
   .baddiv{
@@ -811,7 +811,7 @@ body {
     left: 0;
     width: 100px;
     height: 100px;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/inboat.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/inboat.png?raw=true');
     background-size: cover;
     z-index: 9999;
   }
