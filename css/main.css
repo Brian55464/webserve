@@ -2,7 +2,6 @@ body {
     margin:0;
     padding:0;
     overflow-x: hidden;
-    touch-action: none;
     overscroll-behavior: none;
     background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true');
     
