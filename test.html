@@ -1,0 +1,442 @@
+<script src="use.js"></script>
+<script src="chart.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="鳳梨第四頁" />
+        <meta name="author" content="黃博章" />
+        <title>冷鏈技術</title>
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="assets/img/introduce.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/black.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+        
+    </head>
+    <header>
+      <div class="menu-btn">
+        <div >
+          <img class="headerimg" src="assets/img/pinapple.png"/>
+        </div>
+        
+      </div>
+
+      <nav class="menu">
+        <div class="menuclose">Close</div>
+        <ul class="menu-items">
+            <li><a href="index.html"><div class="menulist3">
+                <p class="footertext1">鳳梨的一生</p>
+                <img class="menuimg" src="assets/img/introduce.png"/>
+              </div></a></li>
+
+            <li><a href="second.html"><div class="menulist">
+                <p class="footertext1">金鳳董的初出茅廬與旅程瓶頸</p>
+                <img class="menuimg" src="assets/img/nosell.png"/>
+            </div></a></li>
+          
+            <li><a href="third.html"><div class="menulist2">
+              <p class="footertext2">台灣鳳梨的黑心危機</p>
+              <img class="menuimg" src="assets/img/鳳梨黑心事件.png"/>
+            </div></a></li>
+
+            <li><a href="five.html"><div class="menulist3">
+                <p>永續與外銷獲利的權衡</p>
+                <img class="menuimg" src="assets/img/inboat.png"/>
+            </div></a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <body class="content">
+        <div class="loader-wrapper">
+            <img class="loader-img"  src="assets/img/introduce.png" alt="loading"/>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress"></div>
+            <div class="progress-image"></div>
+        </div>
+        
+        <div id="popup" class="popup">
+            <div class="popup-content2">
+              <span class="close" onclick="togglePopup()"></span>
+              <img class="floatimg" src="assets/img/popcold.png" />
+              <h3 class="floath3">冷鏈是甚麼？</h3>
+              <p class="floattext">冷鏈系統流程是從田地管理、採收前、採收後、散熱冷卻、包裝、運送到店鋪上架，而過程中最重要的技術就是「溫度控管」，每一個環節的溫度與保存處理方式都非常重要，出了差錯就會導致水果損壞或變質。
+
+                冷鏈是一門需要專業人力與能源的技術，特別是在臺灣水果要外銷到世界各地的情況下，這項技術就顯得格外重要，例如芭樂、芒果、蓮霧….以及金鑽鳳梨，都需要透過冷鏈的保存，才能將水果們用最好的品質運送到其他國家，並用最好的狀態銷售給當地的消費者。
+                
+                鳳梨會在每天清晨 5~9 點間進行採收，鳳梨果實會落在 35℃ 的果溫，有時更熱時會高達 45℃ ，採收回來的鳳梨要馬上放到陰涼處散熱，之後放到水槽裡用5-10℃的水洗降溫，並用冷風吹乾，讓鳳梨不斷冷卻後才會進入包裝，包裝時的室內溫度會控制在22℃，
+                一箱箱的鳳梨堆疊到貨櫃棧板後會接受「壓差預冷」，讓鳳梨的溫度繼續降到12℃的最佳保存溫度，用冷熱風循環吹入與吸出的方式排出鳳梨果實內所有的熱氣。</p>
+              <p class="floattext">※資料來源：國際能源署《冷卻排放和政策綜合報告》</p>  
+            </div>
+        </div>
+
+        <section id="coldsection">
+            <div class="colddiv"> 
+                <div class="firstleft">
+                    <img class="coldimg" src="assets/img/coldtitle.png" />
+                </div>
+                <div class="firstright">
+                  <div data-aos="flip-left"  
+                  data-aos-offset="200"
+                  data-aos-delay="1500"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out">
+                  <img class="imgsize" src="assets/img/nosell.png" />
+                  </div>
+                    
+                </div>
+            </div>
+                
+        </section>
+
+        <section id="smalldata">
+            <div class="baddiv">
+                <img class="smalldataimg" src="assets/img/smalldatatitle.png"/>
+            </div>
+
+            <div class="container">
+              <div data-aos="fade-down"  
+                    data-aos-offset="200"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                <p class="smalltext" onclick="togglePopup()">
+                    講到金鑽鳳梨的外銷就不得不提到<span class="coldspan" >「冷鏈」</span>，冷鏈不單單是把鳳梨們冰起來那麼簡單，
+                    需要經過層層嚴謹的步驟及規範，才能使鳳梨們完好無損的抵達日本。
+                </p>
+              </div>
+            </div>
+        </section>
+
+        <div data-aos="zoom-in"  
+                      data-aos-offset="100"
+                      data-aos-delay="50"
+                      data-aos-duration="200"
+                      data-aos-easing="ease-in-out">
+        <section id="seven">
+                <div class="slider-container">
+                  <div class="slider-content">
+                    <div class="slider-item">
+                      <img class="imgcold" src="assets/img/冷鏈採收選別.png" alt="Slide 1">
+                      <div class="slidertextdiv">
+                        <p class="slidercircle">1</p>
+                        <p class="slidertext">採收及選別</p>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <img class="imgcold" src="assets/img/冷鏈清潔及分級.png" alt="Slide 2">
+                      <div class="slidertextdiv">
+                        <p class="slidercircle">2</p>
+                        <p class="slidertext">清潔及分級</p>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <img class="imgcold" src="assets/img/冷鏈包裝及預冷.png" alt="Slide 3">
+                      <div class="slidertextdiv">
+                        <p class="slidercircle">3</p>
+                        <p class="slidertext">包裝及預冷</p>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <img class="imgcold" src="assets/img/冷鏈裝櫃及檢疫.png" alt="Slide 4">
+                      <div class="slidertextdiv">
+                        <p class="slidercircle">4</p>
+                        <p class="slidertext">裝櫃及檢疫</p>
+                      </div>
+                    </div>
+
+                    <div class="slider-item">
+                      <img class="imgcold" src="assets/img/冷鏈通路配送.png" alt="Slide 5">
+                      <div class="slidertextdiv">
+                        <p class="slidercircle">5</p>
+                        <p class="slidertext">通路配送</p>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <img class="imgcold" src="assets/img/冷鏈海空運運輸.png" alt="Slide 6">
+                      <div class="slidertextdiv">
+                        <p class="slidercircle">6</p>
+                        <p class="slidertext">海空運運輸</p>
+                      </div>
+                    </div>
+                    <div class="slider-item">
+                      <img class="imgcold" src="assets/img/冷鏈通路配送.png" alt="Slide 7">
+                      <div class="slidertextdiv">
+                        <p class="slidercircle">7</p>
+                        <p class="slidertext">通路配送</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+       </div> 
+
+        <section id="pintem">
+            <div>
+                <p class="pintext">
+                    所以鳳梨會黑心就是溫度控管不確實的關係嗎？
+                </p>
+            </div>
+
+            <div class="pindiv"> 
+                <div class="firstleft">
+                  <div data-aos="fade-right"  
+                    data-aos-offset="200"
+                    data-aos-delay="300"
+                    data-aos-duration="500"
+                    data-aos-easing="ease-in-out">
+                    <img class="pinimg" src="assets/img/劉育姍.png" />
+                      <div class="pintitle">
+                        <p>農科院農政中心主任 劉育姍</p>
+                      </div>
+                      
+                      <div class="pintitle2">
+                        <p>
+                          「農委會近年來也推動建設許多大型冷鏈運輸場，尤其在COVID-19疫情爆發後，冷鏈系統的建置越來越完善，也有更多消費者願意改採線上購入生鮮蔬果，所以在冷鏈系統發展的過程中，
+                          關鍵也在於冷鏈的技術人員是否按照正確的程序執行，最困難的點就是如何建立完善的規範跟流程是大家都能共同執行與配合，如果程序不正確，可能就會再次產生負面的影響。」
+                        </p>
+                      </div>
+                  </div>  
+                </div>
+                <div class="firstright">
+                  <div data-aos="fade-left"  
+                    data-aos-offset="200"
+                    data-aos-delay="300"
+                    data-aos-duration="500"
+                    data-aos-easing="ease-in-out">
+                    <img class="pinimg" src="assets/img/何秉洋.png" />
+                      <div class="pintitle">
+                        <p>龍潭合作社主席 何秉洋</p>
+                      </div>
+                      
+                      <div class="pintitle2">
+                        <p >
+                          「最困難需要解決的，應該就是設備的投入，因為在冷鏈操作的過程要讓它不能斷鏈，也就是說，不可以在鳳梨預冷完之後，又把它們放到室外二三十度的溫度下，
+                          上貨櫃跟進入冷藏櫃的時候都要無縫接軌，才不會又升溫。」
+                        </p>
+                      </div>
+                  </div>  
+                </div>
+            </div>
+
+            <div class="pinlast">
+                <p class="pintext">
+                    除了溫度控管，冷鏈技術也有設備、人力、SOP規範等等還須加強改善的問題，就得要由政府帶動農業單位與專家們一起努力克服困境，才能成就品質穩定的鳳梨外銷。
+                </p>
+            </div>
+
+        </section>
+
+        <section id="coldvideobk">
+            <div class="coldvideodiv">
+                <div class="videodiv">
+                    <h2 class="div2text">冷鏈面臨的困境 feat. 農科院農政中心主任 劉育姍</h2>
+                    <div class="video-container">
+                      <iframe class="youtube-video" src="https://www.youtube.com/embed/dVNWXPAvIpg" title="冷鏈面臨的困境 劉育姍" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                      encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="japan">
+            <div class="baddiv">
+              <div data-aos="zoom-in"  
+                      data-aos-offset="500"
+                      data-aos-delay="300"
+                      data-aos-duration="200"
+                      data-aos-easing="ease-in-out">
+                <img class="japantitle" src="assets/img/japantitle.png"/>
+              </div>
+            </div>
+
+            <div class="japandiv">
+             
+                <div class="imgleft">
+                  <div data-aos="zoom-in-up"  
+                  data-aos-offset="200"
+                  data-aos-delay="500"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out">
+                    <img class="imgjapanframe" src="assets/img/農業.png">
+                    <h1 class="japanh1">農業</h1>
+                    <h2 class="japantext">成立鳳梨輔導團、改良場育種、農民輔導</h2>
+                  </div>
+                </div>
+                <div class="imgcenter">
+                  <div data-aos="zoom-in-up"  
+                  data-aos-offset="200"
+                  data-aos-delay="500"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out">
+                    <img class="imgjapan japancold" src="assets/img/冷鏈.png">
+                    <h1 class="japanh1  japancold">冷鏈</h1>
+                    <h2 class="japantext  japancoldright">設立大型冷鏈中心、政府經費補助、設備與技術導入（氣調櫃）、預警系統</h2>
+                  </div>
+                </div>
+                <div class="imgright">
+                  <div data-aos="zoom-in-up"  
+                  data-aos-offset="200"
+                  data-aos-delay="500"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out">
+                    <img class="imgjapan" src="assets/img/外銷.png">
+                    <h1 class="japanh1">外銷</h1>
+                    <h2 class="japantext">市場調查、尋求穩定合作通路、國際食品展行銷策略、精緻化包裝與價格策略</h2>
+                  </div>
+                </div>
+            </div>
+
+            <div class="enddiv"> 
+                <div class="firstleft">
+                    <img class="coldimg" src="assets/img/japantext.png" />
+                </div>
+                <div class="firstright">
+                  <div data-aos="zoom-out-up"  
+                  data-aos-offset="200"
+                  data-aos-delay="500"
+                  data-aos-duration="500"
+                  data-aos-easing="ease-in-out">
+                    <img class="imgsize" src="assets/img/gotojapan.png" />
+                  </div>  
+                </div>
+            </div>
+            
+        </section>
+
+        <footer>
+
+          <a href="second.html">
+            <div class="footerdiv1">
+              <p class="footertext1">金鳳董的初出茅廬與旅程瓶頸</p>
+              <img class="footerimg" src="assets/img/introduce.png"/>
+            </div>
+          </a>
+
+          <a href="third.html">
+            <div class="footerdiv2">
+              <p class="footertext2">台灣鳳梨的黑心危機</p>
+              <img class="footerimg" src="assets/img/鳳梨黑心事件.png"/>
+            </div>
+          </a>
+
+          <a href="five.html">
+            <div class="footerdiv2">
+              <p class="footertext3">永續與外銷獲利的權衡</p>
+              <img class="footerimg" src="assets/img/inboat.png"/>
+            </div>
+          </a>
+      </footer>
+
+
+
+       <!-- Scripts -->
+       <script src="https://code.highcharts.com/highcharts.js"></script>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+      <!--點擊彈出文字說明--> 
+      <script>
+        var div = document.getElementById('myDiv');
+        var popup = document.getElementById('popup');
+    
+        div.addEventListener('click', function() {
+          popup.style.display = 'block';
+        });
+    
+        // 添加点击其他地方隐藏弹出框的功能
+        document.addEventListener('click', function(event) {
+          var targetElement = event.target; // 被点击的元素
+          if (targetElement !== div) {
+            popup.style.display = 'none';
+          }
+        });
+      </script>
+
+      <!-- 彈出動畫 -->
+       <script>
+         function togglePopup() {
+           var popup = document.getElementById('popup');
+           popup.style.display = (popup.style.display === 'none') ? 'block' : 'none';
+         }
+     </script>
+
+       <!-- 滑鼠動畫 -->
+       <script>
+           AOS.init();
+       </script>
+       <!-- 打字動畫 -->
+       <script>
+         const textElement = document.getElementById('typing-animation');
+         const text = "金鑽鳳梨目前的外銷版圖多為亞洲地區，遲遲無法進攻歐美市場，究竟是什麼原因造成這種情況呢？\n讓金鳳董藉著外銷日本的經驗，帶領大家了解鳳梨們的困境！";
+         let index = 0;
+     
+         function type() {
+           if (index < text.length) {
+             textElement.textContent += text.charAt(index);
+             index++;
+             setTimeout(type, 100); // 調整延遲時間以控制文字出現的速度
+           }
+         }
+     
+         // 監視滾動事件
+         const observer = new IntersectionObserver(entries => {
+           entries.forEach(entry => {
+             if (entry.isIntersecting) {
+               // 開始動畫
+               type();
+               // 停止監視
+               observer.unobserve(entry.target);
+             }
+           });
+         });
+     
+         // 選擇要觀察的目標元素
+         const targetElement = document.getElementById('texttype');
+         observer.observe(targetElement);
+       </script>
+
+       <script>
+         let slideIndex = 1;
+         showSlides(slideIndex);
+         
+         function plusSlides(n) {
+           showSlides(slideIndex += n);
+         }
+         
+         function currentSlide(n) {
+           showSlides(slideIndex = n);
+         }
+         
+         function showSlides(n) {
+           let i;
+           let slides = document.getElementsByClassName("mySlides");
+           let dots = document.getElementsByClassName("dot");
+           if (n > slides.length) {slideIndex = 1}    
+           if (n < 1) {slideIndex = slides.length}
+           for (i = 0; i < slides.length; i++) {
+             slides[i].style.display = "none";  
+           }
+           for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" active", "");
+           }
+           slides[slideIndex-1].style.display = "block";  
+           dots[slideIndex-1].className += " active";
+         }
+         </script>
+    </body>
+</html>    
