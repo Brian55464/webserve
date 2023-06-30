@@ -202,7 +202,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto; /* 将高度设置为自动，以适应内容的高度 */
+    height: 100vh; /* 将高度设置为自动，以适应内容的高度 */
     overflow-x: hidden; /* 隐藏横向滚动条 */
     background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true');
   }
