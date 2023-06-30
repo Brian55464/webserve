@@ -228,9 +228,7 @@ body {
     height: auto;
     padding: 10px;
     text-align: justify;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
     background-color: #A79077;
   }
 
