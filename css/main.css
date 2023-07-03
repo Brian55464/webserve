@@ -3,7 +3,7 @@ body {
     padding:0;
     width: 100%;
     overflow-x: hidden;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true');
     background-size: cover;
   }
   
@@ -53,7 +53,7 @@ body {
 
   .headerimg:hover{
 
-    content: url('C:/Users/anan/Desktop/新增資料夾/assets/img/hoverpinapple.png');
+    content: url('https://github.com/Brian55464/webserve/blob/main/assets/img/hoverpinapple.png?raw=true');
     z-index: 1550;
   }
   
@@ -205,7 +205,7 @@ body {
     align-items: center;
     height: 100vh; /* 将高度设置为自动，以适应内容的高度 */
     overflow-x: hidden; /* 隐藏横向滚动条 */
-    background-image: url(C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png);
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true');
   }
   
   .firstintroduce{
@@ -284,7 +284,7 @@ body {
     background-size: 100% 100%; /* 圖片填滿元素 */
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/yellowbk.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/yellowbk.png?raw=true');
   
   }
   #insidepinapple{
@@ -382,7 +382,7 @@ body {
     background-size: 100% 100%; /* 圖片填滿元素 */
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/boatbk.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/boatbk.png?raw=true');
   }
   
   .left-section {
@@ -447,7 +447,7 @@ body {
 }
 
 .map:hover{
-  content: url('C:/Users/anan/Desktop/新增資料夾/assets/img/hoverpinapple.png');
+  content: url('https://github.com/Brian55464/webserve/blob/main/assets/img/hoverpinapple.png?raw=true');
   z-index: 1550;
 }
 
@@ -472,7 +472,7 @@ body {
 }
 
 .map1:hover{
-  content: url('C:/Users/anan/Desktop/新增資料夾/assets/img/日本.png');
+  content: url('https://github.com/Brian55464/webserve/blob/main/assets/img/%E6%97%A5%E6%9C%AC.png?raw=true');
   z-index: 1550;
 }
 .map2{
@@ -482,7 +482,7 @@ body {
 }
 
 .map2:hover{
-  content: url('C:/Users/anan/Desktop/新增資料夾/assets/img/香港.png');
+  content: url('https://github.com/Brian55464/webserve/blob/main/assets/img/%E9%A6%99%E6%B8%AF.png?raw=true');
   z-index: 1550;
 }
 .map3{
@@ -492,7 +492,7 @@ body {
 }
 
 .map3:hover{
-  content: url('C:/Users/anan/Desktop/新增資料夾/assets/img/韓國.png');
+  content: url('https://github.com/Brian55464/webserve/blob/main/assets/img/%E9%9F%93%E5%9C%8B.png?raw=true');
   z-index: 1550;
 }
 
@@ -660,7 +660,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true') ;
   }
 
   .blackimgdiv{
@@ -696,7 +696,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/badbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/badbk.png?raw=true') ;
   }
 
   .baddiv{
@@ -1046,7 +1046,7 @@ body {
     left: 0;
     width: 100px;
     height: 100px;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/inboat.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/inboat.png?raw=true');
     background-size: cover;
     z-index: 9999;
   }
