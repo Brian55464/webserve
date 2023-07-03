@@ -1,0 +1,2088 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png');
+    overflow-x: hidden;
+    background-size: cover;
+  }
+  
+  h1{
+    font-size: 24px;
+  }
+  
+  h2{
+    font-size: 20px;
+  }
+  
+  h3{
+    font-size: 16px;
+  }
+  
+  h4{
+    font-size: 12px;
+  }
+  
+  .textcenter{
+    text-align: center;
+  }
+  
+  /*Header*/
+  header {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .headerimg {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 3px 0;
+    z-index: 1000;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .headerimg:hover{
+
+    content: url('C:/Users/anan/Desktop/新增資料夾/assets/img/hoverpinapple.png');
+    z-index: 1550;
+  }
+  
+  
+  
+  .menu-btn {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    order: 2;
+  }
+  
+  
+  
+  .menu {
+    position: absolute;
+    top: 150%;
+    right: 0;
+    display: none;
+    background-color: #272727;
+    padding: 15px;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .menu-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-items li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-items li a:hover {
+    text-decoration: underline;
+  }
+  
+  .menuimg{
+    width: 5%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+
+  .menulist{
+      width: 100%;
+      height: 10vh;
+      color: #FFFFFF;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      text-align: left; /* 水平置中 */
+      align-items:center; /* 垂直居中 */
+      display: flex;
+      padding-top: 15px;
+      padding-bottom: 5px;
+      padding-left: 25px;
+      font-size: 32px;
+  
+  }
+  
+  .menulist2{
+    width: 100%;
+    height: 10vh;
+    color: #FFFFFF;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .menulist3{
+    width: 100%;
+    height: 10vh;
+    color: #FFFFFF;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items:center; /* 垂直居中 */
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: right;
+    font-size: 32px;
+  }
+  
+  .menulistresult{
+    width: 100%;
+    height: 10vh;
+    background-color:#94A2AB ;
+    color: #FFFFFF;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  
+  .menuclose{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  
+  .menuclose:hover{
+    color: #FFDB5D;
+  }
+  .show {
+    display: block;
+  }
+ 
+ /*第二頁的first*/
+   #blacksection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png) ;
+    background-size: 100% 100%;
+  }
+
+  .blackimgdiv{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .blackimg{
+    width: 55%;
+    height: 110%;
+    margin-top: 3rem;
+    margin-left: 15rem;
+    margin-bottom: 10rem;
+  }
+
+  .blacktext{
+    width: 40%;
+    height: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10rem;
+  }
+
+  /*壞掉的鳳梨part*/
+  #badsection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/badbk.png) ;
+  }
+
+  .baddiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .badtitle{
+    width:60%;
+    height: 40%;
+    margin-top: -5rem;
+  }
+
+  .container{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+  .badtext{
+    width: 50%;
+    height: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 12rem;
+    padding-top: 5rem;
+    color: white;
+    text-align: justify;
+  }
+
+  .spantext{
+    color: #FFDB5D;
+    text-decoration: underline;
+  }
+
+  .coffeediv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .MrH{
+    width: 25%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 3px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto; 
+    margin-top: 5rem;
+    margin-left: 25%;
+  }
+  .MrHtext{
+    width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0 auto; 
+    margin-left: 25%;
+  }
+
+  .mancoffee{
+    text-align: right;
+    margin-top: -7rem;
+    margin-right: 2rem;
+  }
+
+  #lightbulbdiv{
+    display: flex;
+    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/thirdlight.png') ;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lightbulbimg{
+    width: 20%;
+    height: auto;
+    margin-left: -5rem;
+    margin-top: -5rem;
+  }
+
+  .bulbdiv{
+    font-size: 20px;
+    font-weight: 550;
+    background-color: rgba(255, 255, 255, 0.5); /* 使用 rgba 颜色值设置白色透明度 */
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .bulbtext{
+    margin-top: -0.5rem;
+  }
+
+  #noselldiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/nosellbk.png') ;
+  }
+
+  .sellimg{
+    width: 10%;
+    height: auto;
+    float: right;
+    margin-top: -2rem;
+  }
+
+  .selltextdiv{
+    width: 35%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+    font-weight: 550;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 3rem;
+  }
+
+  .typeimgright{
+    width: 100%;
+    height: 30vh;
+    text-align: right;
+  }
+
+  .typeimg{
+    width: 40%;
+    height: auto;
+    margin-right: -10rem;
+    margin-top: -6rem;
+  }
+
+
+
+  .leridiv{
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 12rem;
+    margin-top: 3rem;
+  }
+
+  .firstleft {
+    float: left;
+    width: 50%;
+  }
+    
+  .firstright{
+    float: right;
+    width: 50%;
+  }
+
+  .imgsize{
+    width: 80%;
+    height: auto;
+  }
+
+  .lefttext{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 550;
+  }
+
+  /*打字動畫*/
+  #texttype1 {
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+  }
+
+  #typing-animation1 {
+    width: 40%;
+    overflow: hidden;
+    margin-right: 20rem;
+  }
+
+  .typeimgright{
+    width: 100%;
+    height: 30vh;
+    text-align: right;
+  }
+
+  .typeimgleft{
+    width: 100%;
+    height: 30vh;
+    text-align: left;
+  }
+
+
+  /*cold*/
+  #coldsection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/cold.png) ;
+    background-size: 100% 100%;
+    background-size: cover;
+
+  }
+
+  .coldthingtext{
+    float: left;
+    width: 60%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 550;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .coldthingright{
+    float: right;
+    width: 40%;
+  }
+
+  .coldvector{
+    display: block;
+    margin: 0 auto; /* 水平居中对齐 */
+    width: 6%;
+    height: auto;
+    margin-top: -2.8rem;
+  }
+
+  .colddiv{
+    margin-top: 20rem;
+    width: 80%;
+    height: 60%;
+    margin-bottom: 10rem;
+  }
+
+  .coldimg{
+    width: 90%;
+    height: auto;
+  }
+
+  #smalldata{
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    border-bottom:5px solid black;
+  }
+
+  .smalldataimg{
+    width: 50%;
+    height: 30%;
+    margin-top: -5rem
+  }
+
+  .smalltextdiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .smalltext{
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 24rem;
+  }
+
+  .coldspan{
+    color: #CA9600;
+    text-decoration: underline;
+  }
+
+  #videobyhow{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFDB5D;
+  }
+
+  .viderbyhowtext{
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: left;
+    color: #4E3629;
+    margin-right: 15rem;
+    margin-left: 10rem;
+  }
+
+  #seven{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #FFEAC4;
+    border-top: 30px solid #4E3629;
+  }
+
+  .popsevenX{
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    cursor: pointer;
+    margin-top: -2rem;
+  }
+
+  .popseven{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #4E3629;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    font-size: 20px;
+    font-weight: 550;
+    width: 65%;
+  }
+
+  .popseven::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #FFDB5D transparent;
+  }
+
+
+  .imgleft .imgcenter .imgright{
+    flex: 1;
+    padding: 15px;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 56.25%; /* 16:9影片的高寬比 */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 30%;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin-left: 10rem;
+  }
+
+  .numcold{
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+
+  #pintem{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/pintem.png) ;
+  }
+
+  .pintext{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .pindiv{
+    width: 80%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pinimg{
+    width: 50%;
+    height: 60%;
+  }
+
+  .pintitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 10vh;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-left: 3px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto; 
+  }
+
+  .pintitle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40vh;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0 auto; 
+  }
+
+  .pinlast{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 12rem;
+
+  }
+
+  #coldvideobk{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/coldvideobk.png) ;
+  }
+
+  #coldvideodiv{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .videodiv{
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+  }
+  .div2text{
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+    margin-right: 15rem;
+    margin-left: 10rem;
+  }
+
+  #background-video {
+    width: 60%;
+    height: auto;
+    z-index: -1;
+  }
+
+  .videoset{
+    margin-left: 3rem;
+    margin-top: 20px;
+  }
+
+  #japan{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/lightyellobk.png') ;
+  }
+
+  .japantitle{
+    padding-top: 10rem;
+    width: 30%;
+    height: 10%; 
+  }
+
+  .japandiv{
+    padding-top: 5rem;
+    margin-left: 3rem;
+    display: flex;
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+
+
+  .japancoldright{
+    width: 60%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+
+  .imgjapanframe{
+    width: 80%;
+    height: 45%;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+  }
+
+
+
+  .imgjapanframeout{
+    width: 65%;
+    height: 45%;
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+  }
+
+
+
+  .japanh1{
+    width: 60%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .japantext{
+    width: 75%;
+    text-align: left;
+    margin-left: 8rem;
+  }
+
+
+  #videochange{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/video3bk.png') ;
+  }
+
+  .enddiv{
+    width: 80%;
+    height: 100vh;
+    padding-left: 10rem;
+    padding-top: 10rem
+  }
+
+  .endtextdiv{
+    float: left;
+    width: 70%;
+  }
+
+  .endtext{
+    float: left;
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 550;
+    font-size: 20px;
+    text-align: left;
+  }
+
+
+/*永續環保*/
+    #freshsection{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/freshbk.png) ;
+    background-size: 100% 100%;
+  }
+
+  .freshcoldtitle{
+    width: 40%;
+    height: 15%;
+    margin-top: -3rem;
+  }
+
+  /*圓餅圖*/
+
+  #piediv {
+    width: 100%;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chartdiv {
+    width: 100%;
+    height: auto;
+  }
+
+  .charttext{
+    text-align: center;
+    width: 100%;
+  }
+
+  .chartContainer1 {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    min-width: 200px;
+    min-width: 200px;
+    /* height: 600px; */
+    margin: auto;
+  }
+
+  .chartContainer2 {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    min-width: 200px;
+    min-width: 200px;
+    /* height: 600px; */
+    margin: auto;
+  }
+
+ 
+
+  #greenpin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/greenpinbk.png) ;
+    background-size: 100% 100%;
+    flex-direction: column;
+  }
+
+  .freshtextdiv{
+    float: left;
+    width: 70%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: 550;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 5rem;
+  }
+
+  .freshtextimg{
+    float: right;
+    width: 10%;
+    height: auto;
+    margin-top: -1.5rem;
+  }
+
+  .ansdiv{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .greemans{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+  }
+
+  .ansimg{
+    width: 30%;
+    height: 30%;
+    /* text-align: right; */
+    margin-left: 38rem;
+    margin-bottom: -3rem
+  }
+
+  .earthimg{
+    width: 10%;
+    height: auto;
+    margin-top: -2.5rem;
+    margin-left: -1.5rem;
+  }
+
+  .anstext{
+    color: black;
+    font-size: 24px;
+    padding: 15px;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 30px;
+  }
+
+
+
+
+  .fiveendtitle{
+    padding-top: 10rem;
+    width: 30%;
+    height: 15%;
+  }
+
+  .fivelastdiv{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .fivelastimg{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .lastdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    flex-direction: column;
+  }
+
+  .lasttext{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .fiveimg{
+    width: 10%;
+    height: 15%;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+  }
+
+  .ya{
+    width: 100%;
+    height: auto;
+  }
+
+
+  /*問題收闔選單*/
+
+  #Q1{
+    width: 100%;
+    height: auto;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/lightyellobk.png) ;
+    background-size: 100% 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Q2{
+    width: 100%;
+    height: auto;
+  }
+
+  #Q3{
+    width: 100%;
+    height: auto;
+    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/暗綠背景1.png) ;
+    background-size: 100% 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wait {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: left;
+    font-size: 24px;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+  }
+
+  .answer {
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display: none;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 30px;
+    opacity: 1;
+    transform-origin: top;
+    animation: fade-in 1s ease-in-out;
+  }
+
+  .question {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .question.active + .answer {
+    display: block;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+  /*左右slider*/
+
+
+
+.slider-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider-item {
+  padding: 25px;
+  flex: 0 0 40%;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* 上下排列 */
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.slider-item:hover{
+  transform: scale(0.95);
+}
+
+
+.imgcold{
+  width: 70%;
+  height: 70%;
+  text-align: center;
+  margin-left: 5rem;
+  margin-bottom: -2rem;
+}
+
+.slidertextdiv{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.slidertext{
+  background-color: #CA9600;
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 30%;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-left: 15rem;
+}
+
+.slidercircle{
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(350deg);
+  width: 4%;
+  height: 8%;
+  border: 2px solid black;
+  font-weight: bold;
+  margin-left: 15rem;
+  margin-bottom: -2rem;
+}
+
+
+  /*Footer*/
+  footer{
+    text-align: center;
+    width: 100%;
+  
+  }
+
+  .footerimg{
+    width: 8%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .footerdiv1{
+    background-color: #4E3629;
+    width: 100%;
+    height: 10vh;
+    color: #FFFFFF;
+    text-align: left; /* 水平置中 */
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  
+  .footerdiv1:hover{
+    background-color: #FFDB5D;
+  }
+
+  .footertext1{
+    margin-left: 5rem;
+  }
+  
+  .footerdiv2 {
+    background-color: #4E3629;
+    width: 100%;
+    height: 10vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    overflow: hidden;
+    border: 1px solid white;
+  }
+  
+  .footerdiv2:hover {
+    background-color: #FFDB5D;
+  }
+  
+  .footertext2 {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .footerdiv3{
+    background-color: #4E3629;
+    width: 100%;
+    height: 10vh;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 1px solid white;
+    overflow: hidden;
+  }
+  
+  .footerdiv3:hover{
+    background-color: #FFDB5D;
+  }
+  .footertext3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30rem;
+  }
+
+  
+  
+  
+  .loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: #ffffff;
+    opacity: 1; /* 初始透明度为 1 */
+    transition: opacity 0.5s ease-in-out; /* 过渡效果，控制透明度的变化 */
+  
+  }
+  
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  .loader-img {
+    width: 50px; /* 初始宽度为 50px */
+    height: 50px; /* 初始高度为 50px */
+    opacity: 0; /* 初始透明度为 0 */
+    transition: opacity 0.5s ease-in-out, width 0.5s ease-in-out, height 0.5s ease-in-out; /* 过渡效果，控制透明度、宽度和高度的变化 */
+  }
+  
+  /* 淡入动画 */
+  .loader-wrapper.fade-in {
+    opacity: 1;
+  }
+  
+  .loader-wrapper.fade-out {
+    opacity: 0;
+  }
+  
+  /* 由小变大动画 */
+  .loader-img.scale-up {
+    opacity: 1;
+    width: 100px;
+    height: 100px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  /*body*/
+  #chartContainer {
+    width: auto;
+    height: auto;
+    margin-top: 3rem;
+  }
+  
+  .progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #ccc;
+  }
+  
+  .progress {
+    width: 0;
+    height: 100%;
+    background-color: #ffc107;
+    transition: width 0.3s;
+  }
+  
+  .progress-image {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/inboat.png');
+    background-size: cover;
+    z-index: 9999;
+  }
+  
+  /*浮出式div*/
+  .popup {
+    display: none; /* 默认隐藏浮出式div */
+    position: fixed;
+    top: 0;
+    right: 0; /* 将浮出式div固定在右侧 */
+    width: 500px;
+    max-width: 80%;
+    height: 102%;
+    z-index: 999; /* 设置层级 */
+    overflow-y: auto; /* 添加滚动条以防内容溢出 */
+    box-sizing: border-box; /* 考虑padding的大小 */
+    animation: slideInRight 0.5s forwards; 
+  }
+  
+  .popup-content {
+    background-color: #FFDB5D;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+
+  .popup-content1 {
+    background-color: #FFDB5D;
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 5000;
+  }
+
+  
+  .floatimg{
+    width: 90%;
+    height: auto;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0 auto;
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+  }
+  
+  .floath3{
+    font-size: 24px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 15px;
+  
+  }
+
+  .line{
+    font-size: 24px;
+    padding-left: 1.2rem;
+    margin-top: -2rem;
+  }
+  
+  .floattext{
+    font-size: 18px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    overflow-wrap: break-word;
+  }
+
+  .popclose{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-right: -2rem;
+    transition: background-image 0.5s;
+    z-index: 1;
+  }
+
+  @keyframes slideInRight {
+    0% {
+      right: -500px; /* 动画初始位置在屏幕外 */
+    }
+    100% {
+      right: 0; /* 动画结束位置为右侧0位置 */
+    }
+  }
+
+
+  
+  
+  /*翻面卡片*/
+
+  .expsection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .expdiv {
+    flex-basis: calc(100% / 4);
+    margin-top: 3rem;
+  }
+  
+  .card {
+    position: relative;
+    width: 80%;
+    height: 35vh;
+  }
+  
+  .card .front,
+  .card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.8s ease-out;
+  }
+  
+  .card .front {
+    transform: rotateY(0deg);
+    
+  }
+  
+  .card .back {
+    background-color: #DDA63A;
+    padding: 10px;
+    
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .back {
+    transform: rotateY(0deg);
+  }
+
+    /*翻面卡片2*/
+
+    .card2 {
+      position: relative;
+      width: 80%;
+      height: 35vh;
+    }
+    
+    .card2 .front,
+    .card2 .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      transition: transform 0.8s ease-out;
+    }
+    
+    .card2 .front {
+      transform: rotateY(0deg);
+      
+    }
+    
+    .card2 .back {
+      background-color: #FD9D24;
+      padding: 10px;
+      
+      transform: rotateY(180deg);
+    }
+    
+    .card2:hover .front {
+      transform: rotateY(180deg);
+    }
+    
+    .card2:hover .back {
+      transform: rotateY(0deg);
+    }
+
+    /*翻面卡片3*/
+
+    .card3 {
+      position: relative;
+      width: 80%;
+      height: 35vh;
+    }
+    
+    .card3 .front,
+    .card3 .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      transition: transform 0.8s ease-out;
+    }
+    
+    .card3 .front {
+      transform: rotateY(0deg);
+      
+    }
+    
+    .card3 .back {
+      background-color: #BF8B2E;
+      padding: 10px;
+      
+      transform: rotateY(180deg);
+    }
+    
+    .card3:hover .front {
+      transform: rotateY(180deg);
+    }
+    
+    .card3:hover .back {
+      transform: rotateY(0deg);
+    }
+
+    /*翻面卡片4*/
+
+    .card4 {
+      position: relative;
+      width: 80%;
+      height: 35vh;
+    }
+    
+    .card4 .front,
+    .card4 .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      transition: transform 0.8s ease-out;
+    }
+    
+    .card4 .front {
+      transform: rotateY(0deg);
+      
+    }
+    
+    .card4 .back {
+      background-color: #19486A;
+      padding: 10px;
+      
+      transform: rotateY(180deg);
+    }
+    
+    .card4:hover .front {
+      transform: rotateY(180deg);
+    }
+    
+    .card4:hover .back {
+      transform: rotateY(0deg);
+    }
+  
+  
+  .exptexth3 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .exptexth4 {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .floattest{
+    display: none;
+    background-color: #FFF;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 999;
+  }
+
+  /*RWD*/
+  @media only screen and (max-width: 768px) {
+
+    body{
+      overflow-x: hidden;
+    }
+
+    header {
+      justify-content: flex-start;
+    }
+  
+    .headerimg {
+      position: relative;
+      text-align: left;
+      width: 40px;
+      height: 40px;
+      margin: 3px 0;
+      z-index: 1000;
+    }
+  
+    .menu-icon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .menu {
+      width: 75%;
+      position: relative;
+      left: 0;
+      transform: translateX(0);
+    }
+  
+    .menu-items {
+      padding-top: 15px;
+      text-align: center;
+    }
+  
+    .menulist,
+    .menulist2,
+    .menulist3 {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-size: 18px;
+      margin: 0;
+      padding-left: 0;
+    }
+    
+    .menulist .menuimg,
+    .menulist2 .menuimg,
+    .menulist3 .menuimg {
+      margin: 0 0;
+    }
+
+    .menuimg{
+      width: 10%;
+      height: auto;
+    }
+
+    .footertext1{
+      margin: 0;
+    }
+    .footertext2{
+      margin: 0;
+    }
+
+    footer{
+      position: relative;
+      height: 30vh;
+    }
+
+    .footerdiv1 , .footerdiv2 ,  .footerdiv3{
+      text-align: center;
+      justify-content: center;
+    }
+
+    .footertext1,.footertext2,.footertext3{
+      margin: 0;
+    }
+
+    #blacksection{
+      height: 100vh;
+    }
+
+    #texttype1{
+      height: 50vh;
+    }
+
+    .lightbulbimg{
+      display: none;
+    }
+
+    #typing-animation1{
+      margin: 0;
+      width: 75%;
+    }
+
+    .typeimgright{
+      display: none;
+    }
+
+    .selltextdiv{
+      margin: 0;
+      width: 60%;
+      margin-left: 4rem;
+      margin-top: 3rem;
+    }
+
+    .blacktext{
+      margin-left: 3rem;
+      width: 80%;
+      height: auto;
+    }
+
+    .blackimg{
+      width: 80%;
+      height: auto;
+      margin: 0;
+    }
+
+    .badtitle{
+      width: 100%;
+      margin: 0;
+      margin-top: -2rem;
+    }
+
+    .badtext{
+      margin: 0;
+      width: 80%;
+      height: auto;
+      padding: 15px;
+      margin-left: 1.5rem;
+    }
+
+    .MrH{
+      width: 80%;
+      margin: 0;
+      margin-top: 3rem;
+      margin-left: 2rem;
+    }
+
+    .MrHtext{
+      width: 85%;
+      margin: 0;
+      margin-left: 0.4rem;
+    }
+
+    .mancoffee{
+      margin: 0;
+      display: none;
+    }
+
+    .nosellimg{
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-top: 3rem;
+    }
+
+    .leridiv{
+      margin-left: 0;
+    }
+
+    .firstleft{
+      width: 100%;
+      margin-top: 3rem;
+    }
+
+    .firstright{
+      width: 100%;
+    }
+
+    .freshtextimg{
+      display: none;
+    }
+
+    .imgsize{
+      height: auto;
+    }
+
+ 
+    .freshtextdiv{
+      margin-left: 2rem;
+    }
+
+    #coldsection {
+      flex-direction: column;
+      align-items: center;
+      background-image: none;
+      overflow: hidden;
+    }
+
+    .coldthingtext {
+      width: 90%;
+      margin-top: 2rem;
+    }
+
+    .coldthingright {
+      width: 100%;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .colddiv {
+      margin-top: 10rem;
+      width: 90%;
+      height: auto;
+      margin-bottom: 5rem;
+    }
+
+    .coldimg {
+      width: 100%;
+    }
+
+    .coldvector{
+      display: none;
+    }
+
+
+
+
+    #smalldata{
+      height: auto;
+    }
+
+    .smalldataimg{
+      width: 100%;
+      height: auto;
+      margin-top: -2rem;
+    }
+    .videodiv{
+      padding-top: 2rem;
+    }
+
+    .smalltext {
+      width: 95%;
+      margin: 0;
+      padding: 10px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .viderbyhowtext{
+      margin-right: 0;
+      margin-left: 2rem;
+    }
+
+    .slider-item{
+      width: 100%;
+    }
+
+    .imgcold{
+      width: 100%;
+      height: auto;
+    }
+
+    .slidercircle{
+      margin-left: 4rem;
+      width: 10%;
+      height: auto;
+    }
+
+    .slidertext{
+      width: 75%;
+      margin-left: 4rem;
+    }
+
+    .pinimg{
+      height: auto;
+    }
+
+    .pintext{
+      font-size: 22px;
+    }
+
+    .pintitle{
+      width: 100%;
+    }
+
+    .pintitle2{
+      width: 100%;
+      height: auto;
+      padding-left: 5px;
+      padding-right: 5px
+    }
+
+    .pinlast{
+      width: 80%;
+      margin-top: 30rem;
+    }
+
+    .div2text{
+      margin: 0;
+      width: 100%;
+      margin-left: 2rem;
+    }
+
+    .youtube-video{
+      margin-left: 2rem;
+      margin-top: 2rem;
+    }
+
+    .japandiv{
+      flex-direction: column;
+      margin: 0;
+      width: 100%;
+      height: auto;
+    }
+    .japantitle{
+      width: 80%;
+      height: auto;
+    }
+
+    .imgjapanframe{
+      margin-left: 0;
+      height: auto;
+    }
+
+    .japanh1{
+      margin-left: 5rem;
+    }
+    .japantext{
+      margin-left: 5rem;
+    }
+
+    .imgjapan{
+      margin: 0;
+      width: 100%;
+      height: auto;
+    }
+
+    .endtextdiv {
+      margin-left: 3.5rem;
+      margin-top: 3rem;
+    }
+
+    .japancold{
+      padding: 0;
+    }
+
+    .japancoldright{
+      padding: 0;
+    }
+
+    .enddiv{
+      width: 100%;
+      height: auto;
+      padding: 0;
+    }
+
+    #freshsection{
+      height: auto;
+    }
+
+    .freshcoldtitle{
+      width: 80%;
+      height: auto;
+      margin-top: -1rem;
+    }
+    #greenpin {
+      height: auto;
+    }
+
+    .ansdiv{
+      width: 80%;
+    }
+
+    .ansimg{
+      display: none;
+    }
+
+    .earthimg{
+      display: none;
+    }
+
+    .greemans{
+      padding-bottom: 5rem;
+    }
+
+    .wait{
+      padding: 5px;
+    }
+
+    .answer{
+      font-size: 20px;
+      width: 80%;
+    }
+
+    .fiveendtitle{
+      padding-top: 5rem;
+      width: 80%;
+      height: auto;
+    }
+    .expsection{
+      margin: 0;
+    }
+
+    .exptexth3{
+      font-size: 16px;
+    }
+
+    .exptexth4{
+      font-size: 16px;
+    }
+
+    .back{
+      display: none;
+    }
+
+    .fiveimg{
+      display: none;
+    }
+    #gtx-trans {
+      display: none;
+    }
+
+    .popup {
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      animation: none;
+    }
+  
+    .floatimg {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .popup-content1{
+      width: 90%;
+    }
+    .popclose {
+      right: 30px;
+      padding-top: 10px;
+      width: 50px;
+      height: 50px;
+    }
+
+    #seven{
+      display: none;
+    }
+  }
