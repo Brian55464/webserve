@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true');
     overflow-x: hidden;
     background-size: cover;
   }
@@ -52,7 +52,7 @@ body {
 
   .headerimg:hover{
 
-    content: url('C:/Users/anan/Desktop/新增資料夾/assets/img/hoverpinapple.png');
+    content: url('https://github.com/Brian55464/webserve/blob/main/assets/img/hoverpinapple.png?raw=true');
     z-index: 1550;
   }
   
@@ -192,7 +192,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/eggbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/eggbk.png?raw=true') ;
     background-size: 100% 100%;
   }
 
@@ -229,7 +229,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/badbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/badbk.png?raw=true') ;
   }
 
   .baddiv{
@@ -307,7 +307,7 @@ body {
 
   #lightbulbdiv{
     display: flex;
-    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/thirdlight.png') ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/thirdlight.png?raw=true') ;
     width: 100%;
     height: 100vh;
     justify-content: center;
@@ -346,7 +346,7 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/nosellbk.png') ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/nosellbk.png?raw=true') ;
   }
 
   .sellimg{
@@ -458,7 +458,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/cold.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/cold.png?raw=true') ;
     background-size: 100% 100%;
     background-size: cover;
 
@@ -643,7 +643,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/pintem.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/pintem.png?raw=true') ;
   }
 
   .pintext{
@@ -717,7 +717,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/coldvideobk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/coldvideobk.png?raw=true') ;
   }
 
   #coldvideodiv{
@@ -759,7 +759,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/lightyellobk.png') ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/lightyellobk.png?raw=true') ;
   }
 
   .japantitle{
@@ -826,7 +826,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:url('C:/Users/anan/Desktop/新增資料夾/assets/img/video3bk.png') ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/video3bk.png?raw=true') ;
   }
 
   .enddiv{
@@ -862,7 +862,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/freshbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/freshbk.png?raw=true') ;
     background-size: 100% 100%;
   }
 
@@ -919,7 +919,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/greenpinbk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/greenpinbk.png?raw=true') ;
     background-size: 100% 100%;
     flex-direction: column;
   }
@@ -1043,7 +1043,7 @@ body {
   #Q1{
     width: 100%;
     height: auto;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/lightyellobk.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/lightyellobk.png?raw=true') ;
     background-size: 100% 100%;
     background-size: cover;
     justify-content: center;
@@ -1058,7 +1058,7 @@ body {
   #Q3{
     width: 100%;
     height: auto;
-    background-image:url(C:/Users/anan/Desktop/新增資料夾/assets/img/暗綠背景1.png) ;
+    background-image:url('https://github.com/Brian55464/webserve/blob/main/assets/img/%E6%9A%97%E7%B6%A0%E8%83%8C%E6%99%AF1.png?raw=true') ;
     background-size: 100% 100%;
     background-size: cover;
     justify-content: center;
@@ -1358,7 +1358,7 @@ body {
     left: 0;
     width: 100px;
     height: 100px;
-    background-image: url('C:/Users/anan/Desktop/新增資料夾/assets/img/inboat.png');
+    background-image: url('https://github.com/Brian55464/webserve/blob/main/assets/img/inboat.png?raw=true');
     background-size: cover;
     z-index: 9999;
   }
