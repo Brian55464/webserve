@@ -5,7 +5,7 @@
       var data = [
         { name: "日本", value: 20468 },
         { name: "香港", value: 17499 },
-        { name: "香港", value: 2800 }
+        { name: "韓國", value: 2800 }
       ];
     
       var options = {
