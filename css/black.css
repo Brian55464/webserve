@@ -1239,6 +1239,7 @@ body {
 
   .footertext1{
     margin-left: 5rem;
+    font-size: 30px;
   }
   
   .footerdiv2 {
@@ -1260,6 +1261,7 @@ body {
   .footertext2 {
     display: flex;
     margin-left: auto;
+    font-size: 30px;  
   }
   
   .footerdiv3{
@@ -1283,6 +1285,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 40rem;
+    font-size: 30px;  
   }
 
   
