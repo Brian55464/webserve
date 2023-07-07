@@ -831,7 +831,7 @@ body {
 
   .enddiv{
     width: 80%;
-    height: 180vh;
+    height: 150vh;
     padding-left: 10rem;
     padding-top: 10rem
   }
@@ -861,10 +861,15 @@ body {
     margin-top: 15rem;
   }
 
+
+  .endimgsize{
+    width: 80%;
+    height: auto;
+    margin-top: -10rem;
+  }
   .injapanimg{
     padding-right: 10px;
   }
-
 
 /*永續環保*/
     #freshsection{
