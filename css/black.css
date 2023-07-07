@@ -854,6 +854,17 @@ body {
     text-align: left;
   }
 
+.injapan{
+    width: 80%;
+    height: auto;
+    text-align: left;
+    margin-top: 15rem;
+  }
+
+  .injapanimg{
+    padding-right: 10px;
+  }
+
 
 /*永續環保*/
     #freshsection{
